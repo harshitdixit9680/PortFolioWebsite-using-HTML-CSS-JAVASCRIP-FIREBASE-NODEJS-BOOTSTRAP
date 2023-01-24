@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dixit Fitness Gym</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="E:\web devlopment\css\project\style.css">
+<style>
+    body {
+        font-family: 'Unbounded', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/fit1.jpg');
+        /* height: 4px; */
+        color: white;
+        background-size: cover;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 103px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 29px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 33px;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 40px 23px;
+
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+
+
+    }
+
+    .btn {
+        font-family: 'Unbounded', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 9px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(53, 52, 52);
+    }
+
+    .container {
+        border: 2px solid rgb(114, 110, 110);
+        margin: 106px 70px;
+        padding: 70px;
+        width: 31%;
+        border-radius: 30px
+    }
+
+    .form-group input {
+        font-size: 25px;
+        text-align: center;
+        margin: 11px auto;
+        display: block;
+        width: 508px;
+        padding: 2px;
+        border: 2px solid grey;
+        border-radius: 8px;
+        font-family: 'Unbounded', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 100%;
+        margin: 8px auto;
+
+    }
+</style>
+
+<body>
+
+
+    <!-- top most navigation setup head -->
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo3.png" alt="">
+            <!-- <img src="img/logo2.jpg" alt=""> -->
+            <div>Harshit Fitness</div>
+        </div>
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a> </li>
+                <li> <a href="#">About Us</a> </li>
+                <li> <a href="#">Fitness Calcuator</a> </li>
+                <li> <a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+        <!-- rights box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym of Indergarh Now</h1>
+        <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Phone Number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Email Id">
+        </div>
+        <br>
+        <button class="btn">Submit</button>
+    </form>
+    </div>
+</body>
+
+</html>

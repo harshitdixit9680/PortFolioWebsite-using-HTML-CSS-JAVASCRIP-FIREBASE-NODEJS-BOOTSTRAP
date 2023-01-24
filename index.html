@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harshit Dxit - web Devloper, programmer, Android Devloper</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <script src="toggle.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="sidebar sidebargo">
+        <nav>
+          <ul>
+            <li><a href="/"> Home</a></li>
+            <li><a href="/intro.html"> My Intro</a></li>
+            <li><a href="/project.html"> Project</a></li>
+            <li><a href="/blog.html"> Blog</a></li>
+            <li><a href="/contact.html"> Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- <img src="img/moon.png" class ="icons"> -->
+      <div class="main">
+        <div class="hamberg">
+          <img class="ham" src="ham.png" alt="hamberg" srcset="" width="23" />
+          <img class="cross" src="cross.png" alt="cross" srcset="" width="23" />
+        </div>
+        <div class="infoContainer">
+          <div class="devinfo">
+            <div class="hello" class="cont">
+              Hi I'm <span class="auto-type name"></span>
+            </div>
+
+            <!-- text typing animation -->
+            <!-- <div class="cont">
+                        <h1>I'm <span class="auto-type"></span></h1>
+                    </div> -->
+
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <script>
+              var typed = new Typed(".auto-type", {
+                strings: [
+                  "Harshit Dixit",
+                  "FullStack WebDevloper",
+                  "Software Devloper",
+                  "Fast Learner",
+                  "Entrepreneur",
+                ],
+                typeSpeed: 90,
+                backSpeed: 60,
+                loop: true,
+                FontFace: 20,
+              });
+            </script>
+
+            <!-- close to text typing animation  -->
+
+            <!-- <div class="name">Harshit Dixit</div> -->
+            <!-- <div class="about">Software Devloper,Entrepreneur</div> -->
+            <div class="moreabout">
+              Self-driven, quick starter, passionate programmer with a curious
+              mind who enjoys solving a complex and challenging real-world
+              problems, I Design And Code Beautifully Simple Things,And I Love
+              What I Do
+            </div>
+
+            <div class="buttons">
+              <a href="project/Harshit's Resume (4).pdf" target="_blank"
+                ><button class="btn">Download CV</button></a
+              >
+              <a href="contact.html"><button class="btn">Contact Me</button></a>
+            </div>
+          </div>
+          <!-- <div class="devpic"><img src="logo2.png" alt="Harshit Dixit" srcset=""></div> -->
+        </div>
+      </div>
+      <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
